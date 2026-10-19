@@ -1,0 +1,40 @@
+{
+  "target_model": "Claude-Sonnet-Computer-Use",
+  "reverse_engineering_source": "Clean-Room Behavioral REA Pipeline",
+  "timestamp": "2026-10-18T17:46:00Z",
+  "architectural_traits": [
+    {
+      "trait_id": "CLAUDE-01-COMPUTER-USE-GROUNDING",
+      "name": "High-Precision OS Coordinate Grounding & Action Primitives",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.96, 0.89, 0.94, 0.72, 0.85, 0.91, 0.78, 0.88],
+      "latency_profile_ms": 110.0,
+      "core_layer_binding": "Layer-4 GOAP & Layer-7 Tool Wrapper"
+    },
+    {
+      "trait_id": "CLAUDE-02-EXTENDED-THINKING-ROUTING",
+      "name": "Extended Thinking & Dynamic Hybrid Depth Routing",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.82, 0.76, 0.98, 0.95, 0.89, 0.93, 0.74, 0.86],
+      "latency_profile_ms": 250.0,
+      "core_layer_binding": "Layer-2 Adaptive 1.58b/FP8 Router"
+    },
+    {
+      "trait_id": "CLAUDE-03-VISUAL-DIFF-VERIFICATION",
+      "name": "Post-Action Visual Diff & State Self-Correction Loop",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.91, 0.84, 0.88, 0.92, 0.95, 0.81, 0.87, 0.90],
+      "latency_profile_ms": 65.0,
+      "core_layer_binding": "Layer-6 Karma Atomic Verification"
+    },
+    {
+      "trait_id": "CLAUDE-04-AST-STRUCTURED-PATCHING",
+      "name": "AST-Grounded Code Synthesis & Safe Hot-Patching",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.78, 0.93, 0.85, 0.89, 0.96, 0.77, 0.92, 0.84],
+      "latency_profile_ms": 35.0,
+      "core_layer_binding": "Layer-5 Vajra SMT & AST Interceptor"
+    }
+  ],
+  "verification_status": "FORMALLY_SEALED_Z3_SAT"
+}

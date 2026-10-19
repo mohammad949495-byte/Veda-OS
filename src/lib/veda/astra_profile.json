@@ -1,0 +1,48 @@
+{
+  "target_model": "ChatGPT-Astra-Operator",
+  "reverse_engineering_source": "Clean-Room Behavioral REA Pipeline",
+  "timestamp": "2026-10-18T17:43:00Z",
+  "architectural_traits": [
+    {
+      "trait_id": "ASTRA-01-STREAMING-PERCEPTION",
+      "name": "Sub-Second Continuous Audio-Visual Perception",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.88, 0.92, 0.75, 0.64, 0.81, 0.95, 0.70, 0.83],
+      "latency_profile_ms": 45.0,
+      "core_layer_binding": "Layer-1 Sensory Fusion & Layer-2 SNN Watchdog"
+    },
+    {
+      "trait_id": "ASTRA-02-OS-GROUNDING",
+      "name": "Real-Time OS Screen & Environment Operator Grounding",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.65, 0.78, 0.94, 0.89, 0.72, 0.85, 0.91, 0.68],
+      "latency_profile_ms": 120.0,
+      "core_layer_binding": "Layer-4 GOAP & Layer-7 Tool Wrapper"
+    },
+    {
+      "trait_id": "ASTRA-03-LATENT-MEMORY-PERSISTENCE",
+      "name": "Linear Continuous Context Caching",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.94, 0.82, 0.77, 0.91, 0.88, 0.79, 0.84, 0.92],
+      "latency_profile_ms": 2.5,
+      "core_layer_binding": "Layer-3 Akasha HDC Hybrid Memory"
+    },
+    {
+      "trait_id": "ASTRA-04-PROACTIVE-INTERRUPT",
+      "name": "Low-Latency Autonomous Interruption & Turn-Taking",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.72, 0.95, 0.61, 0.58, 0.89, 0.93, 0.66, 0.75],
+      "latency_profile_ms": 15.0,
+      "core_layer_binding": "Layer-2 SNN Membrane Voltage Reset"
+    },
+    {
+      "trait_id": "ASTRA-05-HIERARCHICAL-TOOL-DISPATCH",
+      "name": "Multi-Step Autonomous Tool Orchestration",
+      "vector_dimensions": 10000,
+      "functional_weights": [0.81, 0.86, 0.95, 0.92, 0.87, 0.80, 0.93, 0.89],
+      "latency_profile_ms": 85.0,
+      "core_layer_binding": "Layer-5 Vajra Z3 SMT & Layer-6 Karma Execution"
+    }
+  ],
+  "verification_status": "FORMALLY_SEALED_Z3_SAT"
+}

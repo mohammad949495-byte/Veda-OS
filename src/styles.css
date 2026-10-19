@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-ink: #0c0e0d;
+  --color-surface: #141816;
+  --color-raised: #1c221f;
+  --color-bone: #f3eee6;
+  --color-muted: #9a9488;
+  --color-line: #2e3632;
+  --color-ember: #e07a3d;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-bone);
+  font-family: var(--font-mono);
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@keyframes veda-breathe {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.veda-breathe {
+  animation: veda-breathe 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .veda-breathe {
+    animation: none;
+  }
+}

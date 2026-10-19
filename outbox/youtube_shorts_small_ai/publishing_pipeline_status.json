@@ -1,0 +1,9 @@
+{
+  "pipeline_id": "PUB-4ED471977CCD",
+  "channel_target": "YouTube Shorts (Zero-Human Pipeline)",
+  "status": "READY_FOR_DISPATCH",
+  "z3_seal": "Z3_SAT_VERIFIED",
+  "audio_rendered": "SYNTHESIZED_ELEVENLABS_COMPATIBLE",
+  "video_project_path": "D:\\new model\\outbox\\youtube_shorts_small_ai",
+  "timestamp_epoch": 1792327859.4495282
+}

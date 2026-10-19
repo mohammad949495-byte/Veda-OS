@@ -1,0 +1,60 @@
+{
+  "title": "Why Trillion-Dollar AI Just Lost to 'Small AI' \ud83d\udcf1\u26a1 #Shorts",
+  "duration_target": "48 Seconds",
+  "aspect_ratio": "9:16 (1080x1920 Vertical)",
+  "hook_retention_target": "> 78% at 3s",
+  "timeline": [
+    {
+      "timecode": "00:00 - 00:04",
+      "scene": "FAST ZOOM: Silicon Valley server racks melting with power meter redlining.",
+      "voiceover": "Silicon Valley spent billions on massive AI models... and the World Bank just told them they're obsolete!",
+      "text_overlay": "BILLIONS WASTED? \ud83e\udd2f",
+      "sound_fx": "Heavy bass riser + Sub-bass drop"
+    },
+    {
+      "timecode": "00:04 - 00:15",
+      "scene": "SPLIT SCREEN: Massive datacentre vs an Indian farmer holding a cheap smartphone.",
+      "voiceover": "Today, global economists announced developing nations don't need trillion-parameter giant models that burn down the power grid.",
+      "text_overlay": "NO CLOUD NEEDED \u274c",
+      "sound_fx": "Whoosh transition"
+    },
+    {
+      "timecode": "00:15 - 00:27",
+      "scene": "ANIMATION: 1.58-bit ternary lattice and SNN spikes running offline at 0% CPU.",
+      "voiceover": "Instead, lightweight 'Small AI' models\u2014running directly on local phones with zero internet\u2014are solving real soil analysis, medical diagnostics, and education.",
+      "text_overlay": "100% OFFLINE EDGE AI \u26a1",
+      "sound_fx": "Data beep / Digital synthesis"
+    },
+    {
+      "timecode": "00:27 - 00:40",
+      "scene": "CHART: Gartner's $3.5 Trillion AI infrastructure impairment report overlay.",
+      "voiceover": "With analysts warning of a 3.5 trillion dollar datacentre bubble, the future isn't bigger cloud servers... it's sovereign local intelligence.",
+      "text_overlay": "$3.5T CLOUD BUBBLE? \ud83d\udcc9",
+      "sound_fx": "Dramatic chime"
+    },
+    {
+      "timecode": "00:40 - 00:48",
+      "scene": "CALL TO ACTION: Veda-OS sovereign terminal HUD appearing.",
+      "voiceover": "Will local AI kill the big tech monopoly? Drop your thoughts in the comments and subscribe for daily AI truths!",
+      "text_overlay": "SUBSCRIBE FOR SOVEREIGN AI \ud83d\udd14",
+      "sound_fx": "Click / Bell notification"
+    }
+  ],
+  "metadata": {
+    "tags": [
+      "#AI",
+      "#ArtificialIntelligence",
+      "#SmallAI",
+      "#TechNews",
+      "#EdgeAI",
+      "#MachineLearning",
+      "#WorldBank",
+      "#FutureTech",
+      "#VedaOS",
+      "#Coding",
+      "#TechTrends"
+    ],
+    "description": "The World Bank just warned against trillion-dollar mega AI models! Discover why 'Small AI' running offline on local edge devices is taking over in October 2026. Subscribe to Veda-OS for sovereign computing insights!",
+    "pinned_comment": "\ud83d\udcac Do you prefer huge cloud models like ChatGPT or fast, private AI running locally on your phone? Tell us below!"
+  }
+}
