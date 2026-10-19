@@ -449,6 +449,18 @@ def run_7layer_blueprint_demonstration():
         for t in tri_traits:
             print(f"    - {CYAN}Ingested Tier:{RESET} {t}")
 
+    print(f"\n{BOLD}[+] Ingesting xAI Grok 3 & DeepSearch Real-Time Architecture:{RESET}")
+    grok_path = os.path.join(os.path.dirname(__file__), "src", "lib", "veda", "grok_profile.json")
+    if os.path.exists(grok_path):
+        with open(grok_path, "r", encoding="utf-8") as f:
+            grok_data = json.load(f)
+        g_traits = [t["name"] for t in grok_data.get("architectural_traits", [])]
+        g_sig = grok_data.get("target_model", "xAI-Grok-3-DeepSearch")
+        g_msg = agent.l3_akasha.ingest_operator_model_pattern(g_sig, g_traits)
+        print(f"  • {GREEN}{g_msg}{RESET}")
+        for t in g_traits:
+            print(f"    - {CYAN}Bound Trait:{RESET} {t}")
+
     # 2. Testing Quiescent Dead-Zone (0% CPU)
     print(f"\n{BOLD}[+] Testing Quiescent Background Subthreshold Ingestion:{RESET}")
     quiet_signal = SensorySignal("telemetry", "price", 0.02, {}, int(time.time() * 1e6))
